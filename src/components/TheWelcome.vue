@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import TonConnectUI from '@tonconnect/ui'
+import { TonConnectUI } from '@tonconnect/ui'
 const club_name = defineModel('club_name')
 const tonConnectUI = new TonConnectUI({
   manifestUrl: 'https://club-demo.vercel.app/tonconnect-manifest.json',
