@@ -5,9 +5,6 @@ const tonConnectUI = new TonConnectUI({
   manifestUrl: 'https://club-demo.vercel.app/tonconnect-manifest.json',
   buttonRootId: 'ton-connect'
 })
-tonConnectUI.uiOptions = {
-  twaReturnUrl: 'https://t.me/token_cafe_bot/token_app'
-}
 
 async function connectToWallet() {
   const connectedWallet = await tonConnectUI.connectWallet()
