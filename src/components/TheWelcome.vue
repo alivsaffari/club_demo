@@ -28,6 +28,6 @@ const club_name = defineModel('club_name')
 }
 
 input {
-  max-width: 20%;
+  max-width: 50%;
 }
 </style>
